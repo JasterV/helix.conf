@@ -63,5 +63,7 @@ mode.select = "SELECT"
   "goto_prev_paragraph",
   "trim_selections",
 ]
+"C-h" = ["goto_line_start"]
+"C-l" = ["goto_line_end"]
 C-y = ":sh zellij run -c -f -x 10% -y 10% --width 80% --height 80% -- bash ~/.config/helix/yazi-picker.sh open"
 C-m = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
